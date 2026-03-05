@@ -3,7 +3,7 @@ class GithubEvent(models.Model):
     _description = "GitHub Event"
 
 
-
+xxxxx
     
     
     event_type = fields.Char("Event Type")
