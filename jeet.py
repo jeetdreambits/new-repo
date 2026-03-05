@@ -6,7 +6,7 @@ class GithubEvent(models.Model):
     event_type = fields.Char("Event Type")
     repository = fields.Char("Repository")
 
-
+eedddd
     
     author = fields.Char("Author") 
 
