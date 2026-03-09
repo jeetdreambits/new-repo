@@ -7,4 +7,8 @@ class GithubEvent(models.Model):
     repository = fields.Char("Repository")
     author = fields.Char("Author") 
     message = fields.Text("Message")    
+
+
+
+    
     created_at = fields.Datetime("Created At")
