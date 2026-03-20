@@ -1,6 +1,8 @@
 class GithubEvent(models.Model):
     _name = "github.event"
-    _description = "GitHub Event"
+    _description = "GitHub
+    
+    Event"
 
     event_type = fields.Char("Event Type")
     repository = fields.Char("Repository")
